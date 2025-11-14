@@ -1,0 +1,122 @@
+nav {
+  background-color: #4D4D4D;
+}
+
+.menu-btn.ativo {
+  background: #222;
+  border-bottom: 3px solid #fff;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h2 .desc {
+  display: inline-block;
+  font-size: 12px;
+  color: #555;
+  font-weight: normal;
+  margin-left: 10px;
+}
+
+b {
+  text-decoration: underline;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table {
+  margin: auto;
+  width: 90%;
+  text-align: center;
+}
+
+th,
+td {
+  padding: 10px;
+}
+
+
+.form-login {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 24px;
+}
+
+label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #222;
+}
+
+
+.extra-link {
+  font-size: 12px;
+  text-align: left;
+  margin-top: 5px;
+}
+
+.extra-link a {
+  color: #222;
+  text-decoration: underline;
+}
+
+.ima-btn {
+  background-color: #fff !important;
+  color: #fff !important;
+  font-size: 15px !important;
+  padding: 4px 16px !important;
+  border: none !important;
+  border-radius: 2px !important;
+  cursor: pointer !important;
+  margin-top: 10px !important;
+  width: 80px !important;
+}
+
+.entrar-btn {
+  background: #4d9900;
+  color: #fff;
+  font-size: 15px;
+  padding: 4px 16px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 80px;
+}
+
+.sair-btn {
+  background: red;
+  color: #fff;
+  font-size: 15px;
+  padding: 4px 16px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 80px;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  color: #444;
+  margin-top: 10px;
+}
+
+hr {
+  margin-bottom: 10px;
+  border: none;
+  border-top: 1px dashed #666666;
+}
+
+* a {
+  text-decoration: none;
+  color: #222;
+}

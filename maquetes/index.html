@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casas & Propriedades</title>
+
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!--FONTES-->
+    <link rel="stylesheet" href="../public/fontes/fontes.css">
+    <!--CSS LOCAL-->
+    <link rel="stylesheet" href="../public/css/style.css">
+</head>
+
+<body>
+    <header class="container-fluid">
+        <div class="row my-3">
+            <div class="col-12 px-0 text-center d-flex justify-content-center gap-3" id="inicio">
+                <img class="logo" src="../imagens - cópia/logo.svg">
+                <nav class="navbar navbar-expand-md navbar-dark d-block d-md-none" id="nav_mobile">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 p-0 mb-md-0 w-100 justify-content-center text-start">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">
+                                        Home
+                                        <span class="linha-vermelha-link"></span>
+                                    </a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                        Empresas
+                                        <span class="linha-vermelha-link"></span>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="historial.html">Historial</a></li>
+                                        <hr>
+                                        <li><a class="dropdown-item" href="filosofia_valores.html">Filosofia e
+                                                Valores</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle " href="#" data-bs-toggle="dropdown">
+                                        Projetos em Comercialização
+                                        <span class="linha-vermelha-link"></span>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="projeto-almada/almada.html">Terraços -
+                                                Almada</a></li>
+                                        <hr>
+                                        <li><a class="dropdown-item" href="projeto-braga/braga.html">Jardim - Braga</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                        Portefólio
+                                        <span class="linha-vermelha-link"></span>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="portefolio/portefolio-almada.html">Varandas
+                                                Lorem - Almada</a>
+                                        </li>
+                                        <hr>
+                                        <li><a class="dropdown-item" href="portefolio/portefolio-sesimbra.html">Vila
+                                                Ipsum- Sesimbra</a>
+                                        </li>
+                                        <hr>
+                                        <li><a class="dropdown-item" href="portefolio/portefolio-braga.html">Campo Dolor
+                                                - Braga</a>
+                                        </li>
+                                        <hr>
+                                        <li><a class="dropdown-item" href="portefolio/portefolio-lisboa.html">Estrada
+                                                Sit - Lisboa</a>
+                                        </li>
+                                        <hr>
+                                        <li><a class="dropdown-item" href="portefolio/portefolio-porto.html">Rua Amet -
+                                                Porto</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contactos.html">
+                                        Contactos
+                                        <span class="linha-vermelha-link"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <!-- Desktop Navbar -->
+        <div class="row d-none d-md-block" id="nav-header">
+            <div class="col-8 px-0 m-auto">
+                <nav class="navbar navbar-expand-md navbar-dark">
+                    <div class="container-fluid justify-content-between">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContentDesktop"
+                            aria-controls="navbarSupportedContentDesktop" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContentDesktop">
+                            <ul class="navbar-nav me-auto mb-2 mb-md-0 w-100 justify-content-center">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">
+                                        HOME
+                                        <span class="linha-vermelha-link"></span>
+                                    </a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle " href="#" data-bs-toggle="dropdown">
+                                        EMPRESAS
+                                        <span class="linha-vermelha-link"></span>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        li><a class="dropdown-item" href="historial.html">Historial</a>
+                                </li>
+                                <hr>
+                                <li><a class="dropdown-item" href="filosofia_valores.html">Filosofia e
+                                        Valores</a>
+                                </li>
+                            </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle " href="#" data-bs-toggle="dropdown">
+                                    PROJETOS EM COMERCIALIZAÇÃO
+                                    <span class="linha-vermelha-link"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="projeto-almada/almada.html">Terraços - Almada</a>
+                                    </li>
+                                    <hr>
+                                    <li><a class="dropdown-item" href="projeto-braga/braga.html">Jardim - Braga</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle " href="#" data-bs-toggle="dropdown">
+                                    PORTEFÓLIO
+                                    <span class="linha-vermelha-link"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="portefolio/portefolio-almada.html">Varandas Lorem
+                                            - Almada</a>
+                                    </li>
+                                    <hr>
+                                    <li><a class="dropdown-item" href="portefolio/portefolio-sesimbra.html">Vila Ipsum-
+                                            Sesimbra</a>
+                                    </li>
+                                    <hr>
+                                    <li><a class="dropdown-item" href="portefolio/portefolio-braga.html">Campo Dolor -
+                                            Braga</a>
+                                    </li>
+                                    <hr>
+                                    <li><a class="dropdown-item" href="portefolio/portefolio-lisboa.html">Estrada Sit -
+                                            Lisboa</a>
+                                    </li>
+                                    <hr>
+                                    <li><a class="dropdown-item" href="portefolio/portefolio-porto.html">Rua Amet -
+                                            Porto</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contactos.html">
+                                    CONTACTOS
+                                    <span class="linha-vermelha-link"></span>
+                                </a>
+                            </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <!-- Carousel -->
+        <div class="row">
+            <div class="col-md-12 px-0">
+                <div id="home" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../imagens - cópia/cabecalho1.jpg" class="d-block w-100" alt="Banner 1">
+                            <div class="carousel-caption text-end ">
+                                <h1 class="titulo1">Casas & Propriedades</h1>
+                                <div class="linha-vermelha-titulo"></div>
+                                <h2 class="subtitulo">Experiência - Profissionalismo</h2>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../imagens - cópia/cabecalho2.jpg" class="d-block w-100" alt="Banner 2">
+                            <div class="carousel-caption text-end">
+                                <h1 class="titulo1">Casas & Propriedades</h1>
+                                <div class="linha-vermelha-titulo"></div>
+                                <h2 class="subtitulo">Sustentabilidade - Qualidade de vida</h2>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../imagens - cópia/cabecalho3.jpg" class="d-block w-100" alt="Banner 3">
+                            <div class="carousel-caption text-end">
+                                <h1 class="titulo1">Casas & Propriedades</h1>
+                                <div class="linha-vermelha-titulo"></div>
+                                <h2 class="subtitulo">Experiência - Qualidade de construção</h2>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../imagens - cópia/cabecalho4.jpg" class="d-block w-100" alt="Banner 4">
+                            <div class="carousel-caption text-end">
+                                <h1 class="titulo1">Casas & Propriedades</h1>
+                                <div class="linha-vermelha-titulo"></div>
+                                <h2 class="subtitulo">Engenharia - Arquitetura</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="container-fluid">
+        <div class="row">
+            <div class=" col-11 px-0 m-auto">
+                <div class="titulo-prédio">
+                    <h2>Terraços - Almada</h2>
+                    <div class="linha-vermelha"></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-10 px-0 m-auto d-none d-md-block desktop">
+                    <div class="carousel">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner  text-center">
+                                <div class="carousel-item active">
+                                    <div class="imagens-4">
+                                        <img src="../imagens - cópia/projecto_generico_01/t1/01.jpg" alt="Imagem 1">
+                                        <img src="../imagens - cópia/projecto_generico_01/t1/02.jpg" alt="Imagem 2">
+                                        <img src="../imagens - cópia/projecto_generico_01/t1/03.jpg" alt="Imagem 3">
+                                        <img src="../imagens - cópia/projecto_generico_01/t1/04.jpg" alt="Imagem 4">
+
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="imagens-4">
+                                        <img src="../imagens - cópia/projecto_generico_01/t1/05.jpg" alt="Imagem 1">
+                                        <img src="../imagens - cópia/projecto_generico_01/t1/06.jpg" alt="Imagem 2">
+                                        <img src="../imagens - cópia/projecto_generico_03/t1/01.jpg" alt="Imagem 3">
+                                        <img src="../imagens - cópia/projecto_generico_03/t1/02.jpg" alt="Imagem 4">
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="caixa-sobreposta">
+                                <h3 class="titulo-caixa">Terraços - Almada </h3>
+                                <div class="linha-caixa"></div>
+                                <p class="tipo-fogo">T1</p>
+
+                                <div class="paginacao">
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                        <img src="../imagens - cópia/svg/seta-esquerda-branca.svg" alt="Anterior"
+                                            class="seta-img">
+                                    </button>
+
+                                    <div class="carousel-indicators bolinha">
+                                        <button type="button" data-bs-target="#carouselExampleIndicators"
+                                            data-bs-slide-to="0" class="active" aria-current="true"
+                                            aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carouselExampleIndicators"
+                                            data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    </div>
+
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                        <img src="../imagens - cópia/svg/seta-direita-branca.svg" alt="Seguinte"
+                                            class="seta-img">
+                                    </button>
+                                </div>
+                                <a href="projeto-almada/almada.html">
+                                    <button class="btn-vermais justify-content-center">Ver mais</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-11 px-0 m-auto d-block d-md-none mobile">
+                    <div class="carousel position-relative">
+                        <div id="carouselExample2Indicators" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="../imagens - cópia/projecto_generico_01/t1/01.jpg"
+                                        class="d-block  w-100 imagens-4 m-auto" alt="Imagem 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../imagens - cópia/projecto_generico_01/t1/02.jpg"
+                                        class="d-block w-100 imagens-4 m-auto" alt="Imagem 2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../imagens - cópia/projecto_generico_01/t1/03.jpg"
+                                        class="d-block  w-100 imagens-4 m-auto" alt="Imagem 3">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../imagens - cópia/projecto_generico_01/t1/04.jpg"
+                                        class="d-block  w-100 imagens-4 m-auto" alt="Imagem 4">
+                                </div>
+                            </div>
+
+                            <div class="caixa-sobreposta-mobile">
+                                <h3 class="titulo-caixa">Terraços - Almada</h3>
+                                <div class="linha-caixa"></div>
+                                <p class="tipo-fogo">T1</p>
+
+
+                                <div class="paginacao-mobile">
+                                    <button class="seta-btn" type="button" data-bs-target="#carouselExample2Indicators"
+                                        data-bs-slide="prev">
+                                        <img src="../imagens - cópia/svg/seta-esquerda-branca.svg" alt="Anterior"
+                                            class="seta-img">
+                                    </button>
+
+                                    <div class="carousel-indicators bolinha">
+                                        <button type="button" data-bs-target="#carouselExample2Indicators"
+                                            data-bs-slide-to="0" class="active"></button>
+                                        <button type="button" data-bs-target="#carouselExample2Indicators"
+                                            data-bs-slide-to="1"></button>
+                                        <button type="button" data-bs-target="#carouselExample2Indicators"
+                                            data-bs-slide-to="2"></button>
+                                    </div>
+
+                                    <button class="seta-btn" type="button" data-bs-target="#carouselExample2Indicators"
+                                        data-bs-slide="next">
+                                        <img src="../imagens - cópia/svg/seta-direita-branca.svg" alt="Seguinte"
+                                            class="seta-img">
+                                    </button>
+                                </div>
+
+                                <a href="projeto-almada/almada.html">
+                                    <button class="btn-vermais">Ver mais</button></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row sombra mt-2 mb-3"></div>
+            <div class="row">
+                <div class=" col-10 px-0 mt-5 mb-5 m-auto d-none d-md-block desktop">
+                    <div class="titulo-prédio">
+                        <h2>Jardim - Braga</h2>
+                        <div class="linha-vermelha"></div>
+                    </div>
+                    <div class="carousel">
+                        <div id="carousel2Indicators" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="imagens-4">
+                                        <img src="../imagens - cópia/projecto_generico_01/t1/06.jpg" alt="Imagem 1">
+                                        <img src="../imagens - cópia/projecto_generico_01/t1/04.jpg" alt="Imagem 2">
+                                        <img src="../imagens - cópia/projecto_generico_01/t0/10.jpg" alt="Imagem 3">
+                                        <img src="../imagens - cópia/projecto_generico_01/t0/11.jpg" alt="Imagem 4">
+
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="imagens-4">
+                                        <img src="../imagens - cópia/projecto_generico_01/t0/01.jpg" alt="Imagem 1">
+                                        <img src="../imagens - cópia/projecto_generico_01/t0/02.jpg" alt="Imagem 2">
+                                        <img src="../imagens - cópia/projecto_generico_01/t0/03.jpg" alt="Imagem 3">
+                                        <img src="../imagens - cópia/projecto_generico_01/t0/05.jpg" alt="Imagem 4">
+
+                                    </div>
+
+                                </div>
+                                <div class="carousel-item ">
+                                    <div class="imagens-4">
+                                        <img src="../imagens - cópia/projecto_generico_01/t0/07.jpg" alt="Imagem 1">
+                                        <img src="../imagens - cópia/projecto_generico_01/t0/09.jpg" alt="Imagem 2">
+                                        <img src="../imagens - cópia/projecto_generico_04/t0/03.jpg" alt="Imagem 3">
+                                        <img src="../imagens - cópia/projecto_generico_04/t0/04.jpg" alt="Imagem 4">
+
+                                    </div>
+                                </div>
+                                <div class="caixa-sobreposta">
+                                    <h3 class="titulo-caixa">Jardim- Braga</h3>
+                                    <div class="linha-caixa"></div>
+                                    <p class="tipo-fogo">T0</p>
+
+                                    <div class="paginacao">
+                                        <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carousel2Indicators" data-bs-slide="prev">
+                                            <img src="../imagens - cópia/svg/seta-esquerda-branca.svg" alt="Anterior"
+                                                class="seta-img">
+                                        </button>
+
+                                        <div class="carousel-indicators bolinha">
+                                            <button type="button" data-bs-target="#carousel2Indicators"
+                                                data-bs-slide-to="0" class="active" aria-current="true"
+                                                aria-label="Slide 1"></button>
+                                            <button type="button" data-bs-target="#carousel2Indicators"
+                                                data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                            <button type="button" data-bs-target="#carousel2Indicators"
+                                                data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                        </div>
+
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#carousel2Indicators" data-bs-slide="next">
+                                            <img src="../imagens - cópia/svg/seta-direita-branca.svg" alt="Seguinte"
+                                                class="seta-img">
+                                        </button>
+                                    </div>
+                                    <a href="projeto-braga/braga.html">
+                                        <button class="btn-vermais">Ver mais</button></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-11 px-0 m-auto d-block d-md-none mobile">
+                    <div class="carousel position-relative">
+                        <div id="carousel3Indicators" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="../imagens - cópia/projecto_generico_01/t0/08.jpg"
+                                        class="d-block m-auto w-100 imagens-4" alt="Imagem 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../imagens - cópia/projecto_generico_01/t0/01.jpg"
+                                        class="d-block  m-auto w-100 imagens-4" alt="Imagem 2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../imagens - cópia/projecto_generico_01/t0/02.jpg"
+                                        class="d-block  m-auto w-100 imagens-4" alt="Imagem 3">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../imagens - cópia/projecto_generico_01/t0/03.jpg"
+                                        class="d-block m-auto w-100 imagens-4" alt="Imagem 4">
+                                </div>
+                            </div>
+
+                            <div class="caixa-sobreposta-mobile">
+                                <h3 class="titulo-caixa">Jardim-Braga</h3>
+                                <div class="linha-caixa"></div>
+                                <p class="tipo-fogo">T0</p>
+                                <div class="paginacao-mobile">
+                                    <button class="seta-btn" type="button" data-bs-target="#carousel3Indicators"
+                                        data-bs-slide="prev">
+                                        <img src="../imagens - cópia/svg/seta-esquerda-branca.svg" alt="Anterior"
+                                            class="seta-img">
+                                    </button>
+
+                                    <div class="carousel-indicators bolinha">
+                                        <button type="button" data-bs-target="#carousel3Indicators" data-bs-slide-to="0"
+                                            class="active"></button>
+                                        <button type="button" data-bs-target="#carouse3Indicators"
+                                            data-bs-slide-to="1"></button>
+                                        <button type="button" data-bs-target="#carousel3Indicators"
+                                            data-bs-slide-to="2"></button>
+                                    </div>
+
+                                    <button class="seta-btn" type="button" data-bs-target="#carousel3Indicators"
+                                        data-bs-slide="next">
+                                        <img src="../imagens - cópia/svg/seta-direita-branca.svg" alt="Seguinte"
+                                            class="seta-img">
+                                    </button>
+                                </div>
+                                <a href="projeto-braga/braga.html">
+                                    <button class="btn-vermais">Ver mais</button></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="container-fluid">
+        <div class="row d-none d-md-block m-auto ">
+            <div class=" col-12 ">
+                <nav class="menu-bar">
+                    <ul class="menu">
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">EMPRESA</a></li>
+                        <li><a href="#">PROJETOS DE COMERCIALIZAÇÃO</a></li>
+                        <li><a href="#">PORTEFÓLIO</a></li>
+                        <li><a href="#">CONTACTOS<a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="row contactos text-center text-md-start">
+            <div class=" offset-1 col mb-3">
+                <h1 class="titulo ">Contactos</h1>
+            </div>
+        </div>
+
+        <div class="row dados-contacto  text-center text-md-startb">
+            <div class=" col-12 col-md offset-md-1">
+                <h3>Morada</h3>
+                <p>Rua Lorem Ipsum, nº 123, 1DTO, Almada, Portugal</p>
+            </div>
+            <div class="col-12 col-md">
+                <h3>Telefone</h3>
+                <p>(+351) 300 555 666</p>
+            </div>
+            <div class="col-12 col-md ">
+                <h3>E-mail</h3>
+                <p>geral@casasepropriedades.pt</p>
+            </div>
+        </div>
+        </div>
+        <div class="linha-vermelha-2"></div>
+        <div class="row icones justify-content-center">
+            <div class="col-auto">
+                <button class="botao-imagem botao-facebook">
+                    <a href="https://www.facebook.com">
+                        <img src="../imagens - cópia/svg/facebook-branco.svg" alt="Facebook" class="normal">
+                        <img src="../imagens - cópia/svg/facebook-vermelho.svg" alt="Facebook" class="hover">
+                    </a>
+                </button>
+            </div>
+            <div class="col-auto">
+                <div class="botao-imagem botao-ralc">
+                    <a href="ralc.html">
+                        <img src="../imagens - cópia/svg/ralc.svg" alt="Resolução Alternativa de Litígios de Consumo">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <a style="text-decoration: none; color: white; cursor:default;" href="cookies.html">
+                <p>Política de Cookies</p>
+            </a>
+            <p>Copyright © Grupo MediaMaster. Todos os direitos reservados.</p>
+        </div>
+
+    </footer>
+</body>
+
+
+
+</html>

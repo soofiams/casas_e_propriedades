@@ -1,0 +1,49 @@
+@font-face {
+    font-family: Dinpro;
+    src: url("../../fonts/dinprobold.woff");
+  }
+  
+  @font-face {
+    font-family: Dinprocbold;
+    src: url("../../fonts/dinprocondensedbold.woff");
+  }
+  
+  @font-face {
+    font-family: Dinprocblack;
+    src: url("../../fonts/dinprocondensedblack.woff");
+  }
+  
+  @font-face {
+    font-family: Dinprocmedium;
+    src: url("../../fonts/dinprocondensedmedium.woff");
+  }
+  
+  @font-face {
+    font-family: Dinprocregular;
+    src: url("../../fonts/dinprocondensedregular.woff");
+  }
+  
+  @font-face {
+    font-family: Dinprocblight;
+    src: url("../../fonts/dinprocondensedlight.woff");
+  }
+  
+  @font-face {
+    font-family: Dinprobold;
+    src: url("../../fonts/dinprobold.woff");
+  }
+  
+  @font-face {
+    font-family: Dinpromedium;
+    src: url("../../fonts/dinpromedium.woff");
+  }
+  
+  @font-face {
+    font-family: Montserrat;
+    src: url("../../fonts/montserratmedium.woff");
+  }
+  
+  @font-face {
+    font-family: Opensansregular;
+    src: url("../../fonts/opensansregular.woff");
+  }

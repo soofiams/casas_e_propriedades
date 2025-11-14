@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casas & Propriedades</title>
+
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!--FONTES-->
+    <link rel="stylesheet" href="../public/fontes/fontes.css">
+    <!--CSS LOCAL-->
+    <link rel="stylesheet" href="../public/css/style.css">
+</head>
+
+<body>
+    <header class="container-fluid">
+        <div class="row my-3">
+            <div class="col-12 px-0 text-center d-flex justify-content-center gap-3" id="inicio">
+                <img class="logo" src="../imagens - cópia/logo.svg">
+                <nav class="navbar navbar-expand-md navbar-dark d-block d-md-none" id="nav_mobile">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 p-0 mb-md-0 w-100 justify-content-center text-start">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="" data-bs-toggle="dropdown">Empresas</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="historial.html">Historial</a></li>
+                                        <hr>
+                                        <li><a class="dropdown-item" href="filosofia_valores.html">Filosofia e
+                                                Valores</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Projetos em
+                                        Comercialização</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="projeto-almada/almada.html">Terraços -
+                                                Almada</a></li>
+                                        <hr>
+                                        <li><a class="dropdown-item" href="projeto-braga/braga.html">Jardim - Braga</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#"
+                                        data-bs-toggle="dropdown">Portefólio</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="portefolio/portefolio-almada.html">Varandas
+                                                Lorem - Almada</a>
+                                        </li>
+                                        <hr>
+                                        <li><a class="dropdown-item" href="portefolio/portefolio-sesimbra.html">Vila
+                                                Ipsum- Sesimbra</a>
+                                        </li>
+                                        <hr>
+                                        <li><a class="dropdown-item" href="portefolio/portefolio-braga.html">Campo Dolor
+                                                - Braga</a>
+                                        </li>
+                                        <hr>
+                                        <li><a class="dropdown-item" href="portefolio/portefolio-lisboa.html">Estrada
+                                                Sit - Lisboa</a>
+                                        </li>
+                                        <hr>
+                                        <li><a class="dropdown-item" href="portefolio/portefolio-porto.html">Rua Amet -
+                                                Porto</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contactos.html">Contactos</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="row d-none d-md-block" id="nav-header">
+            <div class="col-8 px-0 m-auto ">
+                <nav class="navbar navbar-expand-md navbar-dark">
+                    <div class="container-fluid justify-content-between">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-md-0 w-100 justify-content-center">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="index.html">HOME</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">EMPRESAS</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="historial.html">HISTORIAL</a></li>
+                                        <hr>
+                                        <li><a class="dropdown-item" href="filosofia_valores.html">FILOSOFIA E
+                                                VALORES</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">PROJETOS EM
+                                        COMERCIALIZAÇÃO</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="projeto-almada/almada.html">Terraços -
+                                                Almada</a></li>
+                                        <hr>
+                                        <li><a class="dropdown-item" href="projeto-braga/braga.html">Jardim - Braga</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">PORTFÓLIO</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="portefolio/portefolio-almada.html">VARANDAS
+                                                LOREM - ALMADA</a>
+                                        </li>
+                                        <hr>
+                                        <li><a class="dropdown-item" href="portefolio/portefolio-sesimbra.html">VILA
+                                                IPSUM - SESIMBRA</a>
+                                        </li>
+                                        <hr>
+                                        <li><a class="dropdown-item" href="portefolio/portefolio-braga.html">CAMPO DOLOR
+                                                - BRAGA</a>
+                                        </li>
+                                        <hr>
+                                        <li><a class="dropdown-item" href="portefolio/portefolio-lisboa.html">ESTRADA
+                                                SIT - LISBOA</a>
+                                        </li>
+                                        <hr>
+                                        <li><a class="dropdown-item" href="portefolio/portefolio-porto.html">RUA AMET -
+                                                PORTO</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contactos.html">CONTACTOS</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 px-0">
+                <div id="home" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../imagens - cópia/cabecalho1.jpg" class="d-block w-100" alt="Banner 1">
+                            <div class="carousel-caption text-end ">
+                                <h1 class="titulo1">Casas & Propriedades</h1>
+                                <div class="linha-vermelha-titulo"></div>
+                                <h2 class="subtitulo">Experiência - Profissionalismo</h2>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../imagens - cópia/cabecalho2.jpg" class="d-block w-100" alt="Banner 2">
+                            <div class="carousel-caption text-end">
+                                <h1 class="titulo1">Casas & Propriedades</h1>
+                                <div class="linha-vermelha-titulo"></div>
+                                <h2 class="subtitulo">Sustentabilidade - Qualidade de vida</h2>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../imagens - cópia/cabecalho3.jpg" class="d-block w-100" alt="Banner 3">
+                            <div class="carousel-caption text-end">
+                                <h1 class="titulo1">Casas & Propriedades</h1>
+                                <div class="linha-vermelha-titulo"></div>
+                                <h2 class="subtitulo">Experiência - Qualidade de construção</h2>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../imagens - cópia/cabecalho4.jpg" class="d-block w-100" alt="Banner 4">
+                            <div class="carousel-caption text-end">
+                                <h1 class="titulo1">Casas & Propriedades</h1>
+                                <div class="linha-vermelha-titulo"></div>
+                                <h2 class="subtitulo">Engenharia - Arquitetura</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <br><br>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Filosofia e Valores</h1>
+                    <div class="linha-vermelha mb-3"></div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus accusantium distinctio ea tempore
+                        explicabo aut dignissimos, iste delectus nam nemo recusandae dicta fugiat quas eos inventore
+                        dolorem ut esse quia quae reiciendis. Dolore provident aliquam eum, nostrum doloremque hic harum
+                        sed culpa reiciendis adipisci exercitationem temporibus aperiam fuga odit cupiditate a placeat,
+                        architecto at animi blanditiis quibusdam tempore. Magni dicta eius ipsum molestias quasi id
+                        repellat, ratione rerum! Quasi, ullam dolorum quaerat, quo labore quisquam corporis, modi illo
+                        quam voluptatum sequi adipisci nihil? Dolorum voluptatum, molestias aliquam quidem sequi, nisi
+                        quibusdam odio, officiis expedita blanditiis earum eius tempore totam? Assumenda iure et esse
+                        animi, ea tenetur porro est laudantium quae similique, a quasi dolorem soluta, aut excepturi.
+                        Laudantium libero deleniti accusamus autem illo saepe est, eius, quos eveniet odit suscipit,
+                        sint nostrum aspernatur. Aut minus quisquam voluptatibus dolorum est nihil alias velit quam
+                        consectetur hic sint, sequi eos soluta blanditiis.</p>
+
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus accusantium distinctio ea tempore
+                        explicabo aut dignissimos, iste delectus nam nemo recusandae dicta fugiat quas eos inventore
+                        dolorem ut esse quia quae reiciendis. Dolore provident aliquam eum, nostrum doloremque hic harum
+                        sed culpa reiciendis adipisci exercitationem temporibus aperiam fuga odit cupiditate a placeat,
+                        architecto at animi blanditiis quibusdam tempore. Magni dicta eius ipsum molestias quasi id
+                        repellat, ratione rerum! Quasi, ullam dolorum quaerat, quo labore quisquam corporis, modi illo
+                        quam voluptatum sequi adipisci nihil? Dolorum voluptatum, molestias aliquam quidem sequi, nisi
+                        quibusdam odio, officiis expedita blanditiis earum eius tempore totam? Assumenda iure et esse
+                        animi, ea tenetur porro est laudantium quae similique, a quasi dolorem soluta, aut excepturi.
+                        Laudantium libero deleniti accusamus autem illo saepe est, eius, quos eveniet odit suscipit,
+                        sint nostrum aspernatur. Aut minus quisquam voluptatibus dolorum est nihil alias velit quam
+                        consectetur hic sint, sequi eos soluta blanditiis.</p>
+                </div>
+            </div>
+        </div>
+        <br><br>
+    </main>
+    <footer class="container-fluid">
+        <div class="row d-none d-md-block m-auto ">
+            <div class=" col-12 ">
+                <nav class="menu-bar">
+                    <ul class="menu">
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">EMPRESA</a></li>
+                        <li><a href="#">PROJETOS DE COMERCIALIZAÇÃO</a></li>
+                        <li><a href="#">PORTEFÓLIO</a></li>
+                        <li><a href="#">CONTACTOS<a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="row contactos text-center text-md-start">
+            <div class=" offset-1 col mb-3">
+                <h1 class="titulo ">Contactos</h1>
+            </div>
+        </div>
+        <div class="row dados-contacto  text-center text-md-startb">
+            <div class=" col-12 col-md offset-md-1">
+                <h3>Morada</h3>
+                <p>Rua Lorem Ipsum, nº 123, 1DTO, Almada, Portugal</p>
+            </div>
+            <div class="col-12 col-md">
+                <h3>Telefone</h3>
+                <p>(+351) 300 555 666</p>
+            </div>
+            <div class="col-12 col-md ">
+                <h3>E-mail</h3>
+                <p>geral@casasepropriedades.pt</p>
+            </div>
+        </div>
+        </div>
+        <div class="linha-vermelha-2"></div>
+        <div class="row icones justify-content-center">
+            <div class="col-auto">
+                <button class="botao-imagem botao-facebook">
+                    <a href="https://www.facebook.com">
+                        <img src="../imagens - cópia/svg/facebook-branco.svg" alt="Facebook" class="normal">
+                        <img src="../imagens - cópia/svg/facebook-vermelho.svg" alt="Facebook" class="hover">
+                    </a>
+                </button>
+            </div>
+            <div class="col-auto">
+                <div class="botao-imagem botao-ralc">
+                    <a href="ralc.html">
+                        <img src="../imagens - cópia/svg/ralc.svg" alt="Resolução Alternativa de Litígios de Consumo">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <a style="text-decoration: none; color: white; cursor:default;" href="cookies.html">
+                <p>Política de Cookies</p>
+            </a>
+            <p>Copyright © Grupo MediaMaster. Todos os direitos reservados.</p>
+        </div>
+
+    </footer>
+</body>
+
+</html>
